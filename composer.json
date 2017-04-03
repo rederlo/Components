@@ -8,9 +8,9 @@
   },
   "autoload": {
     "psr-4": {
-      "Personaliza\\Auth\\" : "./vendor/Personaliza/Components/src/Auth",
-      "Personaliza\\Entity\\" : "./vendor/Personaliza/Components/src/Entity",
-      "Personaliza\\Controller\\" : "./vendor/Personaliza/Components/src/Controller"
+      "Personaliza\\Auth\\" : "src/Auth",
+      "Personaliza\\Entity\\" : "src/Entity",
+      "Personaliza\\Controller\\" : "src/Controller"
     }
   },
   "autoload-dev": {
