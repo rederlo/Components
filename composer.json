@@ -33,9 +33,7 @@
   },
   "autoload-dev": {
     "psr-4": {
-      "rederlo\\Auth\\Test\\" : "test/Auth",
-      "rederlo\\Auth\\Entity\\" : "test/Auth",
-      "rederlo\\Auth\\Controller\\" : "test/Auth"
+      
     }
   }
 }
