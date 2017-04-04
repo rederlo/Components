@@ -26,16 +26,16 @@
   },
   "autoload": {
     "psr-4": {
-      "Personaliza\\Auth\\" : "src/Auth",
-      "Personaliza\\Entity\\" : "src/Entity",
-      "Personaliza\\Controller\\" : "src/Controller"
+      "rederlo\\Auth\\" : "src/Auth",
+      "rederlo\\Entity\\" : "src/Entity",
+      "rederlo\\Controller\\" : "src/Controller"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Personaliza\\Auth\\Test\\" : "test/Auth",
-      "Personaliza\\Auth\\Entity\\" : "test/Auth",
-      "Personaliza\\Auth\\Controller\\" : "test/Auth"
+      "rederlo\\Auth\\Test\\" : "test/Auth",
+      "rederlo\\Auth\\Entity\\" : "test/Auth",
+      "rederlo\\Auth\\Controller\\" : "test/Auth"
     }
   }
 }

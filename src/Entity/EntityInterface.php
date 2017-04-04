@@ -1,10 +1,9 @@
 <?php
 
-namespace Personaliza\Entity;
+namespace rederlo\Entity;
 
 use Cake\ORM\Entity;
-use Personaliza\Auth\interfaces\OutPutInterface;
-use Personaliza\Auth\output\JsonStringOutput;
+use rederlo\Auth\interfaces\OutPutInterface;
 
 /**
  * Created by PhpStorm.

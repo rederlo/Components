@@ -1,6 +1,6 @@
 <?php
 
-namespace Personaliza\Controller;
+namespace rederlo\Controller;
 
 use Cake\Controller\Controller as baseControle;
 use Cake\Core\Configure;

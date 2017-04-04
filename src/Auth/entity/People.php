@@ -1,9 +1,9 @@
 <?php
 
-namespace Personaliza\Auth\Entity;
+namespace rederlo\Auth\Entity;
 
-use Personaliza\Auth\interfaces\OutPutInterface;
-use Personaliza\Entity\EntityInterface;
+use rederlo\Auth\interfaces\OutPutInterface;
+use rederlo\Entity\EntityInterface;
 
 /**
  * Created by PhpStorm.

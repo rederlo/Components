@@ -6,11 +6,11 @@
  * Time: 10:55
  */
 
-namespace Personaliza\Auth\output;
+namespace rederlo\Auth\output;
 
 
-use Personaliza\Auth\Entity\People;
-use Personaliza\Auth\interfaces\OutPutInterface;
+use rederlo\Auth\Entity\People;
+use rederlo\Auth\interfaces\OutPutInterface;
 
 class JsonStringOutput implements OutPutInterface
 {

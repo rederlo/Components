@@ -1,7 +1,7 @@
 <?php
 
-namespace Personaliza\Auth\interfaces;
-use Personaliza\Auth\Entity\People;
+namespace rederlo\Auth\interfaces;
+use rederlo\Auth\Entity\People;
 
 /**
  * Created by PhpStorm.
