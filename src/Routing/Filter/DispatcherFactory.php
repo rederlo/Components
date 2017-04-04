@@ -27,12 +27,12 @@ class DispatcherFactory extends Factory
 
     protected static function _createFilter($name, $options)
     {
-        $className = App::className($name, 'Auth/Routing/Filter', 'Filter');
-        if (!$className) {
+        $className = "AuthJwt\\Routing\\Filter\\RestFilter";
+
+        if (!class_exists($className)) {
             $msg = sprintf('Cannot locate dispatcher filter named "%s".', $name);
             throw new MissingDispatcherFilterException($msg);
         }
-
         return new $className($options);
     }
 }
