@@ -1,7 +1,9 @@
 {
   "name": "rederlo/cake-auth-jwt",
   "description": "CakePHP plugin for authenticating using JSON Web Tokens and others features",
-  "type": "cakephp-plugin",
+  "type": "library",
+  "version" : "0.0.1",
+  "minimum-stability" : "dev",
   "keywords": [
     "cakephp",
     "authenticate",
