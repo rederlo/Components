@@ -1,5 +1,5 @@
 {
-  "name": "rederlo/Components",
+  "name": "rederlo/cake-auth-jwt",
   "type": "cakephp-plugin",
   "description": "CakePHP plugin for authenticating using JSON Web Tokens and others features",
   "keywords": [
@@ -8,7 +8,7 @@
     "authentication",
     "jwt"
   ],
-  "homepage": "https://github.com/rederlo/Components",
+  "homepage": "https://github.com/rederlo",
   "authors": [
     {
       "name":"rederlo",
@@ -33,7 +33,9 @@
   },
   "autoload-dev": {
     "psr-4": {
-
+      "Personaliza\\Auth\\Test\\" : "test/Auth",
+      "Personaliza\\Auth\\Entity\\" : "test/Auth",
+      "Personaliza\\Auth\\Controller\\" : "test/Auth"
     }
   }
 }
