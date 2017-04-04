@@ -41,7 +41,7 @@ class Controller extends baseControle
             'message' => null,
             'code' => null,
             'data' => [],
-            'state' => false
+            'status' => false
         ];
 
         $type_auth = array_merge($this->Form(), $this->Api());
