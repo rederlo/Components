@@ -16,6 +16,7 @@ class RestFilter extends DispatcherFilter
 {
     public function beforeDispatch(Event $event)
     {
+        debug('teste');die;
         $request = $event->data['request'];
         $response = $event->data['response'];
 
