@@ -100,7 +100,7 @@ class Controller extends baseControle
     public function getParamsHeader()
     {
         $token = str_ireplace('Bearer ','',$this->request->header('authorization'));
-        $token = json_decode(JWT::decode($token, Security::salt(), ['HS256']));
-        return isset($token['params']) ? $token['params'] : null;
+        $token = (array)(JWT::decode($token, Security::salt(), ['HS256']));
+        return isset($token['params']) ? (array)$token['params'] : null;
     }
 }
