@@ -17,11 +17,12 @@ class AuthFactory
 {
     private $obj;
 
-    public function create(People $people)
+    public function create(People $people, $options = [])
     {
         $people->token = JWT::encode([
             'sub' => $people->id,
             'exp' => Time::now()->addDay(3)->getTimestamp(),
+            'params' => $options
         ], Security::salt());
         $this->obj = $people;
     }

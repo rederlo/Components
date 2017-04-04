@@ -5,6 +5,8 @@ namespace AuthJwt\Controller;
 use Cake\Controller\Controller as baseControle;
 use Cake\Core\Configure;
 use Cake\Event\Event;
+use Cake\Utility\Security;
+use Firebase\JWT\JWT;
 
 /**
  * Created by PhpStorm.
@@ -93,5 +95,11 @@ class Controller extends baseControle
     public function isAuthorized($user)
     {
         return true;
+    }
+
+    public function getParamsHeader()
+    {
+        $token = str_ireplace('Bearer ','',$this->request->header('authorization'));
+        return (JWT::decode($token, Security::salt(), ['HS256']))->params;
     }
 }
