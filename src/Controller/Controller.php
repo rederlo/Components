@@ -69,7 +69,7 @@ class Controller extends baseControle
             return ['ADmad/JwtAuth.Jwt' => [
                 'header' => 'authorization',
                 'userModel' => "{$this->_table_auth}",
-                'fields' => $this->_scope_auth_form,
+                'fields' => $this->_scope_auth_token,
                 'parameter' => 'token',
                 'queryDatasource' => true,
             ]];
