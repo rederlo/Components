@@ -1,6 +1,6 @@
 <?php
 
-namespace rederlo\Controller;
+namespace AuthJwt\Controller;
 
 use Cake\Controller\Controller as baseControle;
 use Cake\Core\Configure;

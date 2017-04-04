@@ -6,7 +6,7 @@
  * Time: 10:55
  */
 
-namespace rederlo\Auth\output;
+namespace AuthJwt\Auth\output;
 
 
 use rederlo\Auth\Entity\People;

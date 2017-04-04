@@ -1,7 +1,7 @@
 <?php
 
-namespace rederlo\Auth\interfaces;
-use rederlo\Auth\Entity\People;
+namespace AuthJwt\Auth\interfaces;
+use AuthJwt\Auth\Entity\People;
 
 /**
  * Created by PhpStorm.

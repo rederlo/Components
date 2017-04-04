@@ -1,9 +1,9 @@
 <?php
 
-namespace rederlo\Entity;
+namespace AuthJwt\Entity;
 
 use Cake\ORM\Entity;
-use rederlo\Auth\interfaces\OutPutInterface;
+use AuthJwt\Auth\interfaces\OutPutInterface;
 
 /**
  * Created by PhpStorm.

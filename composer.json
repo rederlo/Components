@@ -30,9 +30,9 @@
   },
   "autoload": {
     "psr-4": {
-      "rederlo\\Auth\\" : "src/Auth",
-      "rederlo\\Entity\\" : "src/Entity",
-      "rederlo\\Controller\\" : "src/Controller"
+      "AuthJwt\\Auth\\" : "src/Auth",
+      "AuthJwt\\Entity\\" : "src/Entity",
+      "AuthJwt\\Controller\\" : "src/Controller"
     }
   },
   "autoload-dev": {

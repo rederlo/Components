@@ -1,11 +1,11 @@
 <?php
 
-namespace rederlo\Auth\factory;
+namespace AuthJwt\Auth\factory;
 
 use Cake\I18n\Time;
 use Cake\Utility\Security;
 use Firebase\JWT\JWT;
-use rederlo\Auth\Entity\People;
+use AuthJwt\Auth\Entity\People;
 
 /**
  * Created by PhpStorm.
