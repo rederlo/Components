@@ -37,6 +37,24 @@ public function add()
 }
 ```
 
+Login 
+-----
+
+```php
+public function login()
+{
+    if ($this->request->is('post')) {
+        $user = $this->Auth->identify();
+        if ($user) {
+            $this->Auth->setUser($user);
+            return $this->redirect($this->Auth->redirectUrl());
+        }
+        $this->Flash->error(__('Usernamme or password ínvalid, try again.'));
+    }
+}
+    
+```
+
 Params token
 ------------
 
