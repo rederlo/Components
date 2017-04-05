@@ -24,8 +24,8 @@ public function add()
 {
     $users = $this->Users->newEntity();
     if($this->request->is('post')){
-        $users = $this->Peoples->patchEntity($users, $this->request->data());
-        if ($this->Peoples->save($users)) {
+        $users = $this->Users->patchEntity($users, $this->request->data());
+        if ($this->Users->save($users)) {
             $auth = new AuthFactory();
             //Expected Type Entity
             $auth->create($users);
