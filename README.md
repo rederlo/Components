@@ -15,7 +15,23 @@ public function initialize()
       'scope_jwt' => ['username' => 'id'],
   ]);
 }
-``` 
+
+```
+
+Cors 
+-----
+
+```php
+$this->response->cors($this->request)
+    ->allowOrigin(['*.cakephp.org'])
+    ->allowMethods(['GET', 'POST'])
+    ->allowHeaders(['X-CSRF-Token'])
+    ->allowCredentials()
+    ->exposeHeaders(['Link'])
+    ->maxAge(300)
+    ->build();
+```
+ 
 New User
 --------
 
