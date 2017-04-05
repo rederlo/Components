@@ -42,7 +42,7 @@ Params token
 
 ```php
 $auth = new AuthFactory();
-$auth->create($people, ['group_id' => $group_id]);
+$auth->create($users, ['group_id' => $group_id]);
 ```
 
 GetParamsToken
