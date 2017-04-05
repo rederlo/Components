@@ -10,7 +10,7 @@ public function initialize()
 {
   parent::initialize();
   Auth::create($this, [
-      'model' => 'General.Peoples',
+      'model' => 'Users',
       'scope_auth' => ['username' => 'email'],
       'scope_jwt' => ['username' => 'id'],
   ]);
