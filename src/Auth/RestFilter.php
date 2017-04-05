@@ -6,7 +6,7 @@
  * Time: 10:08
  */
 
-namespace AuthJwt\Auth;
+namespace Routing\Filter;
 
 
 use Cake\Event\Event;
