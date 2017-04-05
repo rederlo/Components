@@ -24,20 +24,6 @@ trait AuthTrait
     public $_dataResponse = [];
 
     /**
-     * AuthTrait constructor.
-     * @param array $_dataResponse
-     */
-    public function __construct(array $_dataResponse)
-    {
-        $this->_dataResponse = [
-            'message' => null,
-            'code' => null,
-            'data' => [],
-            'status' => false
-        ];
-    }
-
-    /**
      * @return array|null
      */
     public function getParamsHeader()
