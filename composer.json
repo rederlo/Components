@@ -31,10 +31,7 @@
   },
   "autoload": {
     "psr-4": {
-      "AuthJwt\\Auth\\" : "src/Auth",
-      "AuthJwt\\Entity\\" : "src/Entity",
-      "AuthJwt\\Controller\\" : "src/Controller",
-      "AuthJwt\\Routing\\Filter\\" : "src/Routing/Filter"
+      "AuthJwt\\Auth\\" : "src/Auth"
     }
   },
   "autoload-dev": {
