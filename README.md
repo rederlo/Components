@@ -2,6 +2,12 @@ Installation
 ------------
 
 ```php
+composer require rederlo/cake-auth-jwt
+```
+Config
+------
+
+```php
 // src/AppController.php
 
 use AuthTrait;
@@ -17,20 +23,7 @@ public function initialize()
 }
 
 ```
-
-Cors 
------
-
-```php
-$this->response->cors($this->request)
-    ->allowOrigin(['*.cakephp.org'])
-    ->allowMethods(['GET', 'POST'])
-    ->allowHeaders(['X-CSRF-Token'])
-    ->allowCredentials()
-    ->exposeHeaders(['Link'])
-    ->maxAge(300)
-    ->build();
-```
+#cross-origin HTTP request use https://github.com/rederlo/cakephp-cors
  
 New User
 --------
