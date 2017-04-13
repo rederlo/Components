@@ -24,7 +24,7 @@ class Auth
         $controller->loadComponent('RequestHandler');
         $controller->loadComponent('Auth', [
             'storage' => 'Memory',
-            'authorize' => ['Auth'],
+            'authorize' => ['Controller'],
             'authenticate' => [
                 'Form' => [
                     'userModel' => $config['model'],
